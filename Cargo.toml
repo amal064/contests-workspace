@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = [
+    "algo_lib",
+    "main",
+    "tester",
+    "run",
+]
+
+[profile.release]
+overflow-checks = true
+
+[profile.dev]
+lto = "off"

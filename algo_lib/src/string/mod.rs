@@ -1,0 +1,10 @@
+pub mod aho_corasick;
+pub mod concat;
+pub mod hash;
+pub mod qty;
+pub mod slicelike;
+pub mod split;
+pub mod str;
+pub mod string_algorithms;
+pub mod suffix_array;
+pub mod trim;

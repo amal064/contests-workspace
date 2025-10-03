@@ -1,0 +1,1 @@
+    let output = algo_lib::io::output::Output::stdout();
