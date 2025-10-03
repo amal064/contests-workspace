@@ -1,0 +1,6 @@
+open_task_command = [
+    'code',
+    '-r',
+    '--goto',
+    '$FILE:$LINE:$COLUMN',
+]

@@ -43,7 +43,7 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          buildInputs = [
+          packages = [
             rustToolchain
             pkgs.just
             rust-competitive-helper.packages.${system}.default
